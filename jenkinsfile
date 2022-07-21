@@ -1,0 +1,15 @@
+node {
+    stage('clone') {
+        git
+    
+}
+    stage('build') {
+        sh '''javac main1.java
+'''
+    
+}
+    stage('run') {
+        sh 'java Main'
+    
+}
+}
