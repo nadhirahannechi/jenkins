@@ -1,6 +1,7 @@
 node {
     stage('clone') {
-        git
+        git 'https://github.com/ibtissemcherni/jenkins.git'
+
     
 }
     stage('build') {
