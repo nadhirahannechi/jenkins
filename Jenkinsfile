@@ -1,4 +1,4 @@
-node {
+/*node {
     stage('clone') {
         git 'https://github.com/ibtissemcherni/jenkins.git'
 
@@ -13,4 +13,4 @@ node {
         sh 'java Main'
     
 }
-}
+}*/
